@@ -1,9 +1,9 @@
 #include "unity.h"
 	#include "jewel.h"
 
-	void setUp()
+	void setUp(void)
 	{	}
-	void tearDown()
+	void tearDown(void)
 	{	}
 
 	void test_jewel(void)
