@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
-void drawBoundary(int,int,int*,int*,int*);
+#include "jewel.h"
+/*void drawBoundary(int,int,int*,int*,int*);
 void changeUserLocationOnButtonClick(int *,int *,char,int*,int*);
-int success(int A);
+int success(int A);*/
 void drawBoundary(int x,int y,int *posX,int *posY,int *gameOver){ // Passing User Coordinate And JWEL Coordinate
 	// Here I will be drawing the boundary using # character.
 	// I am not using graphics so i will not color the background.
